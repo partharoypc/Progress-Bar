@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: #222;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    color: #fff;
+}
+
+.text1 {
+    text-align: center;
+    padding-top: 40px;
+    color: rgba(255, 255, 255, 0.368);
+}
+
+.skils-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills h2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: normal;
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
+
+.progress-bar {
+    width: 600px;
+    height: 10px;
+    background: #696969;
+    border-radius: 5px;
+}
+
+.progress-bar div {
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+}
+
+.progress-bar div span {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #696969;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -12px;
+    margin-right: -18px;
+    color: white;
+    font-size: 12px;
+}
+
+.html {
+    background: #1ec75c;
+    animation: html 1s linear forwards;
+}
+
+.css {
+    background: #bede0a;
+    animation: css 1s linear forwards;
+}
+
+.js {
+    background: #e809e8;
+    animation: js 1s linear forwards;
+}
+
+.vue {
+    background: #1173d4;
+    animation: vue 1s linear forwards;
+}
+
+.python {
+    background: #dd7608;
+    animation: python 1s linear forwards;
+}
+
+.c {
+    background: #dd1446;
+    animation: c 1s linear forwards;
+}
+
+.cpp {
+    background: #4bdd08;
+    animation: cpp 1s linear forwards;
+}
+
+.html span {
+    border: 1px solid #1ec75c;
+}
+
+.css span {
+    border: 1px solid #bede0a;
+}
+
+.js span {
+    border: 1px solid #e809e8;
+}
+
+.vue span {
+    border: 1px solid #1173d4;
+}
+
+.python span {
+    border: 1px solid #dd7608;
+}
+
+.c span {
+    border: 1px solid #dd1446;
+}
+
+.cpp span {
+    border: 1px solid #4bdd08;
+}
+
+@keyframes html {
+    100% {
+        width: 88%;
+    }
+}
+
+@keyframes css {
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes js {
+    100% {
+        width: 66%;
+    }
+}
+
+@keyframes vue {
+    100% {
+        width: 72%;
+    }
+}
+
+@keyframes python {
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes c {
+    100% {
+        width: 85%;
+    }
+}
+
+@keyframes cpp {
+    100% {
+        width: 62%;
+    }
+}
